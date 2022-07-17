@@ -1,8 +1,32 @@
+:root {
+  --primary-color: #dcb5ff;
+  --font-family: "Hind", sans-serif;
+}
+
+.hero {
+  padding: 160px 20px;
+  background: #d9f2ff;
+  text-align: center;
+}
 h1 {
-  font-family: "Cormorant SC", serif;
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+h2 {
+  font-family: var(--font-family);
+  font-size: 30px;
   font-weight: bold;
 }
 p {
-  font-family: "Cormorant SC", serif;
-  font-weight: normal;
+  font-family: var(--font-family);
+  font-size: 30px;
+}
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
