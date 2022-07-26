@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6937a2;
+  --branding-color: #f6378f;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -72,4 +72,24 @@ p {
 
 .about-section {
   padding: 160px 20px;
+}
+
+.experience {
+  padding: 160px 20px;
+}
+
+.experience h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.experience p {
+  font-size: 16px;
+}
+
+.company-name {
+  background: var(--branding-color);
+}
+hr {
+  color: var(--branding-color);
 }
