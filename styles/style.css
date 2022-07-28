@@ -24,6 +24,10 @@ h1 {
   font-size: 76px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
 }
@@ -128,4 +132,30 @@ hr {
 .content-container {
   padding: 160px 20px;
   text-align: center;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  h4 {
+    font-size: 18px;
+  }
 }
